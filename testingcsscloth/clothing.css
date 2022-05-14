@@ -1,0 +1,120 @@
+/* media query */
+@media screen and (max-width: 700px) {
+    .main-area,
+    .support {
+        width: auto;
+        float: none;
+    }
+
+    .main-area {
+        padding-right: 0;
+    }
+
+    @media screen and (max-width: 700px) {
+        .site-nav li {
+            width: 50%;
+            margin-right: 0;
+        }
+    
+        .site-nav a {
+            padding: 20px 0;
+            margin-right: 5px;
+            margin-bottom: 5px;
+            text-align: center;
+            border: 3px solid #e5e9dc;
+        }
+    }    
+
+@media screen and (min-width: 1300px) {
+    .container {
+        max-width: 1200px;
+    } 
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .content-area {
+        padding-top: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .hide-small {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .site-nav li {
+        width: 70%;
+        margin-right: 0;
+    }
+    .site-nav a {
+        padding: 20px 0;
+        margin-right: 5px;
+        margin-bottom: 5px;
+        text-align: center;
+        border: 3px solid #e5e9dc;
+    }
+}
+}
+/* end media query */
+
+/* site-nav */
+.site-nav li {
+    list-style: none;
+    float: down;
+   margin-right: 10px;
+}
+
+.site-nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+.site-nav {
+   margin-top: 20px;
+}
+
+.site-nav a {
+   color:black;
+   text-decoration: none;
+   padding: 10px 20px;
+   border: 2px solid rgb(168, 168, 166);
+   display: block;
+   margin-bottom: 10px;
+   width: 250px;
+}
+
+.site-nav a:hover {
+    background-color: rgb(211, 194, 189);
+}
+/* nav-site */
+html {
+    background-color: rgb(163, 202, 163);
+}
+
+.container {
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px 40px 40px 40px;
+    background: url(../picturefolder2/striper3.jpg) left bottom repeat, #fff  url(../picturefolder2/striper3.jpg) left top repeat;
+    background-repeat: repeat-x;
+    background-size: 40px 20px;
+}
+
+img {
+    height: 350px;
+}
+
+.content-area {
+    border-top: 3px solid rgb(191, 202, 191);
+    border-bottom: 3px solid rgb(191, 202, 191);
+}
